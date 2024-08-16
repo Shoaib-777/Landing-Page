@@ -31,6 +31,7 @@ const GetFreeChapter = () => {
     <div className='fixed bottom-2 w-full px-4 md:hidden '>
         <button className='text-white text-nowrap font-semibold text-xl text-center w-full py-4 rounded-lg bg-[rgb(37,99,235)]'>Get Free Chapter</button>
     </div>
+       <div className='hidden lg:block'>
     <div className={`transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'} lg:flex lg:fixed bottom-1 w-full lg:items-center lg:justify-between bg-[#16528a] px-[68px] py-4`}>
         <div className='text-white'>
             <strong>Become a API Product Manager</strong><br />
@@ -39,6 +40,7 @@ const GetFreeChapter = () => {
         <div>
             <button className='w-[220px] h-[56px] text-white bg-[rgb(37,99,235)] font-semibold hover:bg-[rgb(30,66,159)] rounded-md '>Get Free Chapter</button>
         </div>
+    </div
     </div>
     </>)
 }
