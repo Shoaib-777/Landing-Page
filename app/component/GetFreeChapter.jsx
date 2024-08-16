@@ -40,7 +40,7 @@ const GetFreeChapter = () => {
         <div>
             <button className='w-[220px] h-[56px] text-white bg-[rgb(37,99,235)] font-semibold hover:bg-[rgb(30,66,159)] rounded-md '>Get Free Chapter</button>
         </div>
-    </div
+    </div>
     </div>
     </>)
 }
