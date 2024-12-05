@@ -137,7 +137,7 @@ const Footer = () => {
                     <span className="text-sm font-normal">
                       <Link
                         className="text-[#A3A9B9] transition-colors hover:text-[rgb(30,66,159)]"
-                        href="/blog/so-you-want-to-be-product-manager"
+                        href="/"
                       >
                         So you want to be a PM?
                       </Link>
@@ -186,7 +186,7 @@ const Footer = () => {
                     <span className="text-sm font-normal">
                       <Link
                         className="text-[#A3A9B9] transition-colors hover:text-[rgb(30,66,159)]"
-                        href="/cancellation"
+                        href="/"
                       >
                         Cancellations
                       </Link>
